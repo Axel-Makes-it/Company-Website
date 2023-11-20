@@ -9,7 +9,7 @@
 }
 
 .hero_container-heading {
-  margin-bottom: 110px;
+  margin-bottom: 90px;
   font-size: 28px;
   display: flex;
   flex-direction: column;
@@ -20,6 +20,18 @@
   opacity: 0;
   transform: translateY(20px); /* Set initial translation */
   animation: fadeInUp 1s ease-in-out forwards; /* Apply fade-in and upward translation animation */
+}
+
+.btn1 {
+  margin-top: 20px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  background-color: #27a9e1;
+  color: #d9d9d9;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0px 0px 10px 0px rgba(128, 0, 128, 0.95);
 }
 
 @keyframes fadeInUp {
@@ -96,5 +108,11 @@
     font-size: 16px;
     padding-left: 10px;
     padding-right: 10px;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero_container-heading {
+    margin-top: 40px;
   }
 }

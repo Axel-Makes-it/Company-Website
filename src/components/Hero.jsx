@@ -11,6 +11,7 @@ function Hero() {
           An invaluable resource designed to streamline and automate your social
           content tasks and workflows.
         </p>
+        <button className="btn1">+Add to browser. It's Free</button>
       </div>
     </div>
   );
