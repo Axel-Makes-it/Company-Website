@@ -1,0 +1,61 @@
+.hero_container {
+  background: url("../images/Hero.svg") top/cover no-repeat;
+  background-attachment: fixed;
+  min-height: 480px;
+  display: flex;
+  justify-content: center;
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+}
+
+.hero_container-heading {
+  margin-bottom: 140px;
+  font-size: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #d9d9d9;
+  font-family: "Poppins-ExtraBold";
+}
+
+.hero_container-heading h1 {
+  font-weight: bolder;
+}
+
+.hero_container-heading h2.type {
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  border-right: 0.15em solid #4a29c2;
+  animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+#hero-p {
+  font-family: "inner";
+  font-size: 18px;
+  text-align: center;
+}
+
+.type {
+  color: rgba(128, 0, 128, 0.9);
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 75%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgba(128, 0, 128, 0.9);
+  }
+}
