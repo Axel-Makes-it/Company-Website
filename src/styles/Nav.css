@@ -182,4 +182,8 @@
   #dot {
     color: #6040d4;
   }
+
+  .logo span {
+    display: none;
+  }
 }
