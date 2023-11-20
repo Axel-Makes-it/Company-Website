@@ -32,7 +32,7 @@
 }
 
 #hero-p {
-  font-family: "inner";
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
   text-align: center;
 }
@@ -70,5 +70,9 @@
 
   .type {
     color: #6040d4;
+  }
+
+  .hero_container-heading {
+    margin-bottom: 160px;
   }
 }
