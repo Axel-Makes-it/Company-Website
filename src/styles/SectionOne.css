@@ -31,8 +31,8 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .sectionOne_container-wrapper {
-    top: -160px;
+    top: -210px;
   }
 }
