@@ -14,6 +14,9 @@
   animation: glow 2s infinite alternate;
   top: -120px;
   margin: 0px 30px;
+  opacity: 0; /* Set initial opacity to 0 */
+  transform: translateY(20px); /* Set initial translation */
+  animation: fadeInUpSection 1s ease-in-out forwards; /* Apply fade-in and upward translation animation */
 }
 
 .sectionOne_container-wrapper img {
@@ -23,6 +26,35 @@
   border-radius: 20px;
   min-width: 63.5%;
   min-height: 65%;
+  opacity: 0; /* Set initial opacity to 0 */
+  transform: translateY(20px); /* Set initial translation */
+  animation: fadeInUpImage 1s ease-in-out forwards; /* Apply fade-in and upward translation animation */
+}
+
+@keyframes fadeInUpSection {
+  from {
+    opacity: 0;
+    transform: translateY(
+      20px
+    ); /* Start from slightly below its final position */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* Move to its final position */
+  }
+}
+
+@keyframes fadeInUpImage {
+  from {
+    opacity: 0;
+    transform: translateY(
+      20px
+    ); /* Start from slightly below its final position */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* Move to its final position */
+  }
 }
 
 @keyframes glow {
