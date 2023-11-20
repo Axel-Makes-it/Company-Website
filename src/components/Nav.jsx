@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Nav.css";
-import logo from "../images/logo.svg";
+import logo from "../images/logo.png";
 
 function Nav() {
   return (
