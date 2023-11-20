@@ -4,7 +4,7 @@ import "../styles/SectionTwo.css";
 function SectionTwo() {
   return (
     <div className="sectionTwo_container">
-      <h2>A reliable way to manage your Social Media</h2>
+      <h2>TRUSTED BY</h2>
     </div>
   );
 }

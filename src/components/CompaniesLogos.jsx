@@ -12,10 +12,31 @@ import eight from "../images/eight.png";
 function CompaniesLogos() {
   return (
     <div className="companiesLogos_container">
-      <div>
-        <h2>TRUSTED BY</h2>
-      </div>
       <ul>
+        <li>
+          <img src={one} alt="logo" width={200} />
+        </li>
+        <li>
+          <img src={two} alt="logo" width={200} />
+        </li>
+        <li>
+          <img src={three} alt="logo" width={200} />
+        </li>
+        <li>
+          <img src={four} alt="logo" width={200} />
+        </li>
+        <li>
+          <img src={five} alt="logo" width={200} />
+        </li>
+        <li>
+          <img src={six} alt="logo" width={200} />
+        </li>
+        <li>
+          <img src={seven} alt="logo" width={200} />
+        </li>
+        <li>
+          <img src={eight} alt="logo" width={200} />
+        </li>
         <li>
           <img src={one} alt="logo" width={200} />
         </li>
