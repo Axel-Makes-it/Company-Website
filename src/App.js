@@ -1,4 +1,5 @@
 import "./App.css";
+import CompaniesLogos from "./components/CompaniesLogos";
 import Hero from "./components/Hero";
 import Nav from "./components/Nav";
 import SectionOne from "./components/SectionOne";
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <SectionOne />
       <SectionTwo />
+      <CompaniesLogos />
     </div>
   );
 }

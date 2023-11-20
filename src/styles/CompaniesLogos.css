@@ -1,0 +1,30 @@
+.companiesLogos_container {
+  width: 1200px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Ensure that overflowing content is hidden */
+  height: 80px;
+  position: absolute;
+  transform: translateY(0);
+  left: 50%;
+  margin-left: -600px; /* Half of the width to center it horizontally */
+}
+
+.companiesLogos_container ul {
+  display: flex;
+  list-style-type: none;
+  gap: 100px;
+  animation: slideRightToLeft 60s linear infinite; /* Adjust duration as needed */
+  align-items: center;
+}
+
+@keyframes slideRightToLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

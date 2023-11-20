@@ -2,6 +2,10 @@ import React from "react";
 import "../styles/Hero.css";
 
 function Hero() {
+  const handleClick = () => {
+    window.location.href =
+      "https://chromewebstore.google.com/detail/click2ai/ccdmhhbpdngohbollmgmplbbdjlphddb?hl=en";
+  };
   return (
     <div className="hero_container">
       <div className="hero_container-heading">
@@ -11,7 +15,9 @@ function Hero() {
           An invaluable resource designed to streamline and automate your social
           content tasks and workflows.
         </p>
-        <button className="btn1">+Add to browser. It's Free</button>
+        <button href="axel.dev.com" className="btn1" onClick={handleClick}>
+          +Add to browser. It's Free
+        </button>
       </div>
     </div>
   );
