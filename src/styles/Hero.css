@@ -59,3 +59,16 @@
     border-color: rgba(128, 0, 128, 0.9);
   }
 }
+
+@media (max-width: 768px) {
+  .hero_container-heading {
+    font-size: 22px;
+  }
+  .hero_container {
+    background: linear-gradient(rgba(128, 0, 128, 0.9), rgba(38, 31, 73, 1));
+  }
+
+  .type {
+    color: #6040d4;
+  }
+}

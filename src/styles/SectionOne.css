@@ -30,3 +30,9 @@
     box-shadow: 0px 0px 40px 20px rgba(128, 0, 128, 0.95);
   }
 }
+
+@media (max-width: 768px) {
+  .sectionOne_container-wrapper {
+    top: -160px;
+  }
+}
