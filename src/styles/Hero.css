@@ -62,7 +62,7 @@
 
 @media (max-width: 768px) {
   .hero_container-heading {
-    font-size: 18px;
+    font-size: 16px;
   }
   .hero_container {
     background: linear-gradient(rgba(128, 0, 128, 0.9), rgba(38, 31, 73, 1));
