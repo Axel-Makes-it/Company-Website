@@ -9,15 +9,15 @@
 .sectionOne_container-wrapper {
   position: relative;
   background-size: contain;
-
   border-radius: 20px;
   box-shadow: 0px 0px 35px 0px rgba(128, 0, 128, 0.95);
   animation: glow 2s infinite alternate;
-  margin-left: 20px;
-  margin-right: 20px;
+  top: -120px;
+  margin: 0px 30px;
 }
 
 .sectionOne_container-wrapper img {
+  position: relative;
   width: 100%;
   height: 100%;
   border-radius: 20px;
@@ -27,6 +27,6 @@
 
 @keyframes glow {
   to {
-    box-shadow: 0px 0px 40px 20px rgba(128, 0, 128, 0.95); /* Glowing shadow */
+    box-shadow: 0px 0px 40px 20px rgba(128, 0, 128, 0.95);
   }
 }
