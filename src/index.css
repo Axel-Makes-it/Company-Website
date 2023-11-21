@@ -4,8 +4,8 @@
 }
 body {
   background-color: #150f2a;
-  width: 100%; /* Set to your desired width */
-  overflow-x: hidden; /* Prevent horizontal overflow */
+  width: 100%;
+  overflow-x: hidden;
 }
 
 @font-face {
